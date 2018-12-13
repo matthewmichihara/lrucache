@@ -2,21 +2,20 @@ group 'com.fourpool.lrucache'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    repositories {
-        maven {
-            url "https://maven.eveoh.nl/content/repositories/releases"
-        }
+  repositories {
+    maven {
+      url "https://maven.eveoh.nl/content/repositories/releases"
     }
+  }
 
-    dependencies {
-        classpath 'nl.eveoh:gradle-aspectj:1.6'
-    }
+  dependencies {
+    classpath 'nl.eveoh:gradle-aspectj:1.6'
+  }
 }
 
 project.ext {
-    aspectjVersion = '1.9.2'
+  aspectjVersion = '1.9.2'
 }
-
 
 apply plugin: 'java'
 apply plugin: 'maven'
@@ -24,13 +23,13 @@ apply plugin: 'aspectj'
 apply plugin: 'application'
 
 repositories {
-    mavenCentral()
-    maven { url 'https://jitpack.io' }
+  mavenCentral()
+  maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile "com.github.matthewmichihara.lrucache:lrucache:master-SNAPSHOT"
-    aspectpath "com.github.matthewmichihara.lrucache:lrucache:master-SNAPSHOT"
+  compile "com.github.matthewmichihara.lrucache:lrucache:master-SNAPSHOT"
+  aspectpath "com.github.matthewmichihara.lrucache:lrucache:master-SNAPSHOT"
 }
 
 mainClassName = 'com.fourpool.lrucache.samplegradlejitpack.Main'
