@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk11
+
+script: mvn test -B
+
+notifications:
+  email:
+    recipients:
+      - matthew.michihara@gmail.com
+
+sudo: false
