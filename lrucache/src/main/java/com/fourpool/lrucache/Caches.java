@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Caches {
+public class Caches {
   /**
    * Maps function signature to maps of parameters to return values.
    */
@@ -13,7 +13,7 @@ class Caches {
   /**
    * Auxiliary data about cache effectiveness.
    */
-  static final Map<String, CacheStats> CACHE_STATS = new HashMap<>();
+  public static final Map<String, CacheStats> CACHE_STATS = new HashMap<>();
 
   static void clear() {
     CACHES.clear();

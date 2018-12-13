@@ -1,4 +1,6 @@
-package com.fourpool.lrucache;
+package com.fourpool.lrucache.sample;
+
+import com.fourpool.lrucache.LruCache;
 
 /**
  * Calculates the nth fibonacci number.
@@ -17,7 +19,7 @@ class Fibonacci {
   /**
    * Annotated fibonacci number generator with memoization.
    */
-  @LruCache(key="fib")
+  @LruCache(key = "fib")
   int cachedCalculate(int n) {
     System.out.println("Invoked cachedCalculate(" + n + ")");
     if (n == 1) return 1;
@@ -25,3 +27,4 @@ class Fibonacci {
     return cachedCalculate(n - 1) + cachedCalculate(n - 2);
   }
 }
+

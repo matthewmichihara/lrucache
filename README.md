@@ -126,5 +126,7 @@ Java(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
 ```
 ```
-mvn clean install exec:java
+mvn clean install
+cd sample
+mvn exec:java
 ```

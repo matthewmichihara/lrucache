@@ -1,4 +1,6 @@
-package com.fourpool.lrucache;
+package com.fourpool.lrucache.sample;
+
+import com.fourpool.lrucache.Caches;
 
 public class Main {
   public static void main(String[] args) {
@@ -14,3 +16,4 @@ public class Main {
     System.out.println("Cache misses: " + cacheStats.misses);
   }
 }
+
