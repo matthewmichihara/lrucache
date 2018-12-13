@@ -8,5 +8,11 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface LruCache {
-  public int size() default 1024;
+  public int maxSize() default 1024;
+
+  /**
+   * Optionally provide a key to index this cache by
+   * in {@code Caches.CACHE_STATS}. This should be unique.
+   */
+  public String key() default "";
 }

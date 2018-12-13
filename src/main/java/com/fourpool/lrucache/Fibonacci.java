@@ -8,7 +8,7 @@ class Fibonacci {
     return calculate(n - 1) + calculate(n - 2);
   }
 
-  @LruCache
+  @LruCache(key="foo")
   int cachedCalculate(int n) {
     System.out.println("cachedCalculate(" + n + ")");
     if (n == 1) return 1;
