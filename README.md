@@ -144,7 +144,7 @@ dependencies {
 ```
 
 #### Using Maven
-See [sample project](/lrucache/sample-maven-jitpack).
+See [sample project](https://github.com/matthewmichihara/lrucache/tree/master/sample-maven-jitpack ).
 
 
 Build
