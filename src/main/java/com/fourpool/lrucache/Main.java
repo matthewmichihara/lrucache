@@ -3,8 +3,14 @@ package com.fourpool.lrucache;
 public class Main {
   public static void main(String[] args) {
     Fibonacci fib = new Fibonacci();
-    System.out.println(fib.calculate(5));
+    // Un-annotated version.
+    System.out.println("7th fibonacci number: " + fib.calculate(7));
     System.out.println();
-    System.out.println(fib.cachedCalculate(5));
+
+    // Annotated version.
+    System.out.println("7th fibonacci number: " + fib.cachedCalculate(7));
+    var cacheStats = Caches.CACHE_STATS.get("fib");
+    System.out.println("Cache hits: " + cacheStats.hits);
+    System.out.println("Cache misses: " + cacheStats.misses);
   }
 }
