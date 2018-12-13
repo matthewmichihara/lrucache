@@ -22,6 +22,7 @@
     <modules>
         <module>lrucache</module>
         <module>sample</module>
+        <module>sample-maven-jitpack</module>
     </modules>
 
     <properties>
