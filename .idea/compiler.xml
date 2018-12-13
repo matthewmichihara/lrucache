@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lrucache" />
         <module name="sample" />
+        <module name="sample-maven-jitpack" />
       </profile>
     </annotationProcessing>
   </component>

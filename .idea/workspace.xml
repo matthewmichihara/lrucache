@@ -1,43 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcc939e3-b12a-4d6f-8767-dc9f5be1fccf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lrucache/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/src/main/java/com/fourpool/lrucache/sample/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/src/main/java/com/fourpool/lrucache/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lrucache.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/CacheStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/Caches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/Fibonacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/LruCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/LruCacheAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/LruLinkedHashMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fourpool/lrucache/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fourpool/lrucache/LruCacheTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fourpool/lrucache/LruLinkedHashMapTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="dcc939e3-b12a-4d6f-8767-dc9f5be1fccf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/lrucache/target/" />
     <ignored path="$PROJECT_DIR$/sample/target/" />
+    <ignored path="$PROJECT_DIR$/sample-maven-jitpack/target/" />
+    <ignored path="$PROJECT_DIR$/sample-gradle-jitpack/.gradle/" />
+    <ignored path="$PROJECT_DIR$/sample-gradle-jitpack/build/" />
+    <ignored path="$PROJECT_DIR$/sample-gradle-jitpack/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/sample-gradle-jitpack">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/sample-gradle-jitpack/src/main/java/com/fourpool/lrucache/samplegradlejitpack/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="266">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -83,6 +80,10 @@
         <option value="$PROJECT_DIR$/sample/pom.xml" />
         <option value="$PROJECT_DIR$/lrucache/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sample-maven-jitpack/pom.xml" />
+        <option value="$PROJECT_DIR$/sample-maven-jitpack/src/main/java/com/fourpool/lrucache/samplemavenjitpack/Main.java" />
+        <option value="$PROJECT_DIR$/sample-gradle-jitpack/build.gradle" />
+        <option value="$PROJECT_DIR$/sample-gradle-jitpack/src/main/java/com/fourpool/lrucache/samplegradlejitpack/Main.java" />
       </list>
     </option>
   </component>
@@ -140,52 +141,6 @@
               <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
               <item name="lrucache" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lrucache" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lrucache" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -205,11 +160,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544735710649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544740079814" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -314,15 +269,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25703126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Build" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980132" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32980132" />
@@ -334,6 +289,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -635,15 +591,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-maven-jitpack/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1143">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-gradle-jitpack/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-gradle-jitpack/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-gradle-jitpack/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/base-services/org/gradle/api/JavaVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/plugins/org/gradle/api/plugins/JavaPluginConvention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="138" column="48" lean-forward="true" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
+          <folding>
+            <element signature="e#5024#5025#0" expanded="true" />
+            <element signature="e#5092#5093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="396">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-gradle-jitpack/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-maven-jitpack/src/main/java/com/fourpool/lrucache/samplemavenjitpack/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample-gradle-jitpack/src/main/java/com/fourpool/lrucache/samplegradlejitpack/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -699,7 +710,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sample</last-edited>
+          <last-edited>com.fourpool.lrucache.sample-gradle-jitpack</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
