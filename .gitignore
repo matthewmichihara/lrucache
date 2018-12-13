@@ -1,3 +1,6 @@
 target/
 .gradle
 build/
+.idea/
+*.iml
+.java_version
