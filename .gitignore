@@ -3,4 +3,4 @@ target/
 build/
 .idea/
 *.iml
-.java_version
+.java-version
