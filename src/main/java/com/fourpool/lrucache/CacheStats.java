@@ -2,6 +2,9 @@ package com.fourpool.lrucache;
 
 import java.util.List;
 
+/**
+ * Auxiliary cache data.
+ */
 class CacheStats {
   final LruLinkedHashMap<List<Object>, Object> cache;
   int hits;

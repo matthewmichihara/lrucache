@@ -3,6 +3,7 @@ package com.fourpool.lrucache;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+@SuppressWarnings("WeakerAccess")
 class LruLinkedHashMap<K, V> extends LinkedHashMap<K, V> {
   final int capacity; // Maximum number of items in the cache.
 

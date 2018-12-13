@@ -9,5 +9,14 @@ class Caches {
    * Maps function signature to maps of parameters to return values.
    */
   static final Map<String, LruLinkedHashMap<List<Object>, Object>> CACHES = new HashMap<>();
+
+  /**
+   * Auxiliary data about cache effectiveness.
+   */
   static final Map<String, CacheStats> CACHE_STATS = new HashMap<>();
+
+  static void clear() {
+    CACHES.clear();
+    CACHE_STATS.clear();
+  }
 }

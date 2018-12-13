@@ -5,9 +5,13 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+@SuppressWarnings("UnnecessaryInterfaceModifier")
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface LruCache {
+  /**
+   * The maximum cache size. Once hit, LRU eviction starts.
+   */
   public int maxSize() default 1024;
 
   /**
