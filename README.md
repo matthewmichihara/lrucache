@@ -98,14 +98,12 @@ class Fibonacci {
 var fib = new Fibonacci();
 System.out.println("7th fibonacci number: " + fib.cachedCalculate(7));
 var cacheStats = Caches.CACHE_STATS.get("fib");
-System.out.println("Cache hits: " + cacheStats.hits);
-System.out.println("Cache misses: " + cacheStats.misses);
+System.out.println(cacheStats);
 ```
 
 ```
 7th fibonacci number: 13
-Cache hits: 4
-Cache misses: 7
+CacheStats{hits=4, misses=7, maxSize=1024, currSize=7}
 ```
 
 Install
