@@ -15,4 +15,14 @@ public class CacheStats {
     this.hits = hits;
     this.misses = misses;
   }
+
+  @Override
+  public String toString() {
+    return "CacheStats{" +
+        "hits=" + hits +
+        ", misses=" + misses +
+        ", maxSize=" + cache.capacity +
+        ", currSize=" + cache.size() +
+        '}';
+  }
 }
